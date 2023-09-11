@@ -1,12 +1,12 @@
 import axios from 'axios';
 import { createMarkup } from './markup';
 
-// KEY_PIXABAY = '39368125-d1b3e5b97c15ed48cece9f7a0';
+const KEY_PIXABAY = '39368125-d1b3e5b97c15ed48cece9f7a0';
+const BASE_URL = 'https://pixabay.com/api/';
 
 function getUserRequest(userRequest, numberPage) {
-  BASE_URL = 'https://pixabay.com/api/';
   const searchParams = new URLSearchParams({
-    key: '39368125-d1b3e5b97c15ed48cece9f7a0',
+    key: KEY_PIXABAY,
     q: userRequest,
     image_type: 'photo',
     orientation: 'horizontal',
