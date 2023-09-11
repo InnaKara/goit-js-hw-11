@@ -6,7 +6,7 @@ BASE_URL = 'https://pixabay.com/api/';
 
 function getUserRequest(userRequest, numberPage) {
   const searchParams = new URLSearchParams({
-    key: KEY_PIXABAY,
+    key: '39368125-d1b3e5b97c15ed48cece9f7a0',
     q: userRequest,
     image_type: 'photo',
     orientation: 'horizontal',
