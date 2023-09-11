@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { createMarkup } from './markup';
 
-KEY_PIXABAY = '39344748-f22e888d108fa6b6315bee374';
+KEY_PIXABAY = '39368125-d1b3e5b97c15ed48cece9f7a0';
 BASE_URL = 'https://pixabay.com/api/';
 
 function getUserRequest(userRequest, numberPage) {
